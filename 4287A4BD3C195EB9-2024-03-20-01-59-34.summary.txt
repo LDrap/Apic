@@ -1,0 +1,32 @@
+*********************
+Libelium - Programming Cloud Service
+Version: BUILDv01-APIv056-IDEv06.31
+Date: 2024-03-20 01:59:34
+*********************
+You have selected the next program options:
+
+Plug and Sense!:Smart Water
+
+Sensors:
+Socket A:Water pH
+Socket B:Dissolved oxygen
+Socket C:Water Conductivity
+Socket D:none
+Socket E:Oxidation Reduction Potential
+Socket F:Water Temperature
+
+GPS:OFF
+Sleep Time:610 seconds
+Serial ID:
+
+Node name: Apic_01
+Critical Battery Warning: ON
+
+Watchdog Configuration: OFF
+Communication module:WiFi
+
+Sensor data will be sent according the following format:
+Wifi
+A single "Waspmote binary frame" will be created.
+Bynary frame 1: | header  | ph [5] | do [5] | cond [5] | orp [5] | wt [5]
+For more info refer to Data Frame Guide.
